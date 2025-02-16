@@ -1,14 +1,18 @@
+import Header from "./components/Header";
+import SideNav from "./components/SideNav";
 
-import { Button } from "./components/ui/button"
 function App() {
-  
-
   return (
-  <>
-    <h1>Hello world</h1>
-    <Button> Hello </Button>
-  </>
-  )
+    <>
+      <Header />
+      <div className="w-64 fixed">
+        <SideNav/>
+      </div>
+      <div className="ml-64">
+        Body
+      </div>
+    </>
+  );
 }
 
-export default App
+export default App;
