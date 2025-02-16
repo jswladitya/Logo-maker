@@ -46,7 +46,7 @@ const IconController = () => {
 
         <div className="py-2">
             <label className="p-5 flex justify-between items-center">Icon Color</label>
-            <ColorPickerController hideController={true}
+            <ColorPickerController className = "rounded-xl" hideController={true}
             selectedColor={(color)=> setColor(color)}
             />
         </div>
